@@ -2,9 +2,9 @@
 
 A Jupyter notebook that connects to a running CARLA simulator, puts a Tesla Model 3 into Town04 with some traffic, and shows what its LiDAR, radar and RGB camera see in real time.
 
-![RGB camera window](images/rgb-camera.png)
+![RGB camera window](images/rgb.png)
 
-![LiDAR and radar point clouds in Open3D](images/lidar-radar.png)
+![LiDAR and radar point clouds in Open3D](images/lidar.png)
 
 ## What it does
 
@@ -59,8 +59,3 @@ Sensor data can use a lot of CPU, GPU and RAM. Run the cells only once per sessi
 If your system gets unstable, stop the notebook kernel and CARLA first. Then lower the number of traffic vehicles and the LiDAR point rate, channel count or rotation frequency before trying again.
 
 Note: if you interrupt the visualization cell instead of pressing `q`, the cleanup code doesn't run, so restart CARLA or reload the map.
-
-## Files
-
-- `3D-LIDAR-RADAR.ipynb`: sensor setup, callbacks, data conversion and the visualization loop
-- `images/`: screenshots used in this README
