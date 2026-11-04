@@ -2,7 +2,10 @@
 
 A Jupyter notebook that connects to a running CARLA simulator, puts a Tesla Model 3 into Town04 with some traffic, and shows what its LiDAR, radar and RGB camera see in real time.
 
-![RGB camera window](rgb.png)     ![LiDAR and radar point clouds in Open3D](lidar.png)
+<p align="center">
+  <img src="rgb.png" alt="RGB camera window" width="48%">
+  <img src="lidar.png" alt="LiDAR and radar point clouds in Open3D" width="48%">
+</p>
 
 ## What it does
 
